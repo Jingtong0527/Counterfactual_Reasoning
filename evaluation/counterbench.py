@@ -15,7 +15,7 @@ with open(file_path, "r", encoding="utf-8") as f:
 # MODEL
 torch.cuda.empty_cache()
 gc.collect()
-hf_token = "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"
+hf_token = ""
 
 
 model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
